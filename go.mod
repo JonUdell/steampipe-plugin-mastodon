@@ -1,4 +1,4 @@
-module github.com/turbot/steampipe-plugin-mastodon
+module github.com/jonudell/steampipe-plugin-mastodon
 
 go 1.24
 
