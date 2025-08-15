@@ -41,6 +41,7 @@ func Plugin(ctx context.Context) *plugin.Plugin {
 			"mastodon_search_account":  tableMastodonSearchAccount(),
 			"mastodon_search_hashtag":  tableMastodonSearchHashtag(),
 			"mastodon_search_toot":     tableMastodonSearchToot(),
+			"mastodon_single_toot":     tableMastodonSingleToot(),
 			"mastodon_server":          tableMastodonServer(),
 			"mastodon_toot_direct":     tableMastodonTootDirect(),
 			"mastodon_toot_favourite":  tableMastodonTootFavourite(),
