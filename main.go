@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/turbot/steampipe-plugin-mastodon/mastodon"
+	"github.com/jonudell/steampipe-plugin-mastodon/mastodon"
 
 	"github.com/turbot/steampipe-plugin-sdk/v5/plugin"
 )

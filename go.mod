@@ -6,12 +6,9 @@ toolchain go1.24.1
 
 replace github.com/mattn/go-mastodon => github.com/turbot/go-mastodon v0.0.1
 
-replace github.com/turbot/steampipe-plugin-mastodon => ./
-
 require (
 	github.com/mattn/go-mastodon v0.0.6
 	github.com/microcosm-cc/bluemonday v1.0.23
-	github.com/turbot/steampipe-plugin-mastodon v0.0.0-00010101000000-000000000000
 	github.com/turbot/steampipe-plugin-sdk/v5 v5.13.0
 )
 
